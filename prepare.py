@@ -234,9 +234,9 @@ def prepare_data(data, training_data):
         training_data_copy['num_of_siblings'].values.reshape(-1, 1))
 
     median_imp_cols = ['weight', 'household_income']
-    random_imp_cols = ['happiness_score', 'conversations_per_day', 'PCR_06', 'PCR_02', 'PCR_03', 'PCR_04', 'PCR_01',
+    random_imp_cols = ['sugar_levels','happiness_score', 'conversations_per_day', 'PCR_06', 'PCR_02', 'PCR_03', 'PCR_04', 'PCR_01',
                        'PCR_09', 'PCR_07', 'PCR_10', 'sport_activity']
-    should_be_deleted_cause_corr = ['sugar_levels', 'age', 'PCR_05', 'PCR_08', 'pcr_date']
+    should_be_deleted_cause_corr = ['age', 'PCR_05', 'PCR_08', 'pcr_date']
 
     imputer = SimpleImputer(missing_values=np.nan, strategy='median')
     for col in median_imp_cols:
@@ -258,12 +258,15 @@ def prepare_data(data, training_data):
 
     # Drop features from the data set that we decided not to keep
 
-    to_keep = ['num_of_siblings', 'PCR_01', 'PCR_02', 'PCR_03', 'PCR_06', 'PCR_10', 'blood_A_AB', 'risk', 'spread',
+    to_keep = ['num_of_siblings', 'sugar_levels', 'household_income', 'PCR_01', 'PCR_02', 'PCR_03', 'PCR_06', 'PCR_07', 'PCR_10', 'blood_A_AB', 'risk', 'spread',
                'covid']
     to_drop = [x for x in training_data_copy.columns if x not in to_keep]
     #print(data_copy.columns)
     for drop_it in to_drop:
         data_copy.drop(drop_it, axis='columns', inplace=True)
         training_data_copy.drop(drop_it, axis='columns', inplace=True)
+    data_copy['risk'] = np.where(data_copy['risk'] == 'High', 1, -1)
+    data_copy['spread'] = np.where(data_copy['spread'] == 'High', 1, -1)
+    data_copy['covid'] = np.where(data_copy['covid'], 1, -1)
 
     return data_copy

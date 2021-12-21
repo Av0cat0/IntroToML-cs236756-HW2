@@ -12,5 +12,5 @@ if __name__ == '__main__':
     # Clean test set according to the raw training set
     test_df_clean = prepare_data(test_df, train_df)
 
-    train_df_clean.to_csv("train_df_clean.csv")
-    test_df_clean.to_csv("test_df_clean.csv")
+    train_df_clean.to_csv("train_df_clean.csv", index=False)
+    test_df_clean.to_csv("test_df_clean.csv", index=False)

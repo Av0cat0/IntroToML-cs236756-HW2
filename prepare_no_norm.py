@@ -65,7 +65,7 @@ def prepare_data(data, training_data):
     df_symptoms = training_data_copy['symptoms'].str.get_dummies(sep=';').add_prefix('symptoms_')
     training_data_copy = pd.concat([training_data_copy, df_symptoms], axis='columns')
 
-    # Extract U.S. states (and army region specifiers for military addresses) as features from address 
+    # Extract U.S. states (and army region specifiers for military addresses) as features from address
     data_copy['address_states'] = data_copy['address'].str.slice(start=-8, stop=-6)
     training_data_copy['address_states'] = training_data_copy['address'].str.slice(start=-8, stop=-6)
 
@@ -86,7 +86,7 @@ def prepare_data(data, training_data):
     training_data_copy['age_groups'] = pd.cut(training_data_copy.age, bins=[0,1,12,19,60,150], labels=['infant', 'child', 'teenager', 'adult', 'senior citizen'])
     training_data_copy['weight_groups'] = pd.cut(training_data_copy.weight, np.arange(0, 136, 5))
     training_data_copy['h_income_groups'] = pd.cut(training_data_copy.household_income, bins=[0,80,178,555,595,793,400_000_000], \
-                                              labels=['poverty level', 'low income', 'middle class', 'upper middle class', 'high income', 'highest tax brackets'])
+                                                   labels=['poverty level', 'low income', 'middle class', 'upper middle class', 'high income', 'highest tax brackets'])
     training_data_copy['sugar_levels_groups'] = pd.cut(training_data_copy.sugar_levels, bins=8)
     training_data_copy['PCR_01_groups'] = pd.cut(training_data_copy.PCR_01, bins=8)
     training_data_copy['PCR_02_groups'] = pd.cut(training_data_copy.PCR_02, bins=8)
@@ -101,7 +101,7 @@ def prepare_data(data, training_data):
     data_copy['age_groups'] = pd.cut(data_copy.age, bins=[0,1,12,19,60,150], labels=['infant', 'child', 'teenager', 'adult', 'senior citizen'])
     data_copy['weight_groups'] = pd.cut(data_copy.weight, np.arange(0, 136, 5))
     data_copy['h_income_groups'] = pd.cut(data_copy.household_income, bins=[0,80,178,555,595,793,400_000_000], \
-                                              labels=['poverty level', 'low income', 'middle class', 'upper middle class', 'high income', 'highest tax brackets'])
+                                          labels=['poverty level', 'low income', 'middle class', 'upper middle class', 'high income', 'highest tax brackets'])
     data_copy['sugar_levels_groups'] = pd.cut(data_copy.sugar_levels, bins=8)
     data_copy['PCR_01_groups'] = pd.cut(data_copy.PCR_01, bins=8)
     data_copy['PCR_02_groups'] = pd.cut(data_copy.PCR_02, bins=8)
@@ -274,30 +274,32 @@ def prepare_data(data, training_data):
     training_data_copy['spread'] = np.where(training_data_copy['spread'] == 'High', 1, -1)
     training_data_copy['covid'] = np.where(training_data_copy['covid'], 1, -1)
 
-    # Apply normalization to the features
+    return data_copy
 
-    target_cols = ['covid', 'risk', 'spread']
-    z_score_cols = ['PCR_01', 'PCR_02', 'PCR_07']
-    min_max_cols = [x for x in data_copy.columns if x not in target_cols and x not in z_score_cols]
+    # # Apply normalization to the features
+    #
+    # target_cols = ['covid', 'risk', 'spread']
+    # z_score_cols = ['PCR_01', 'PCR_02', 'PCR_07']
+    # min_max_cols = [x for x in data_copy.columns if x not in target_cols and x not in z_score_cols]
+    #
+    # z_score_data = data_copy[z_score_cols]
+    # z_score_training = training_data_copy[z_score_cols]
+    #
+    # min_max_data = data_copy[min_max_cols]
+    # min_max_training = training_data_copy[min_max_cols]
+    #
+    # targets = data_copy[target_cols]
+    #
+    # scaler = StandardScaler()
+    # scaler.fit(z_score_training)
+    # z_score_transformed = pd.DataFrame(scaler.transform(z_score_data), columns=z_score_cols)
+    #
+    # scaler = MinMaxScaler()
+    # scaler.fit(min_max_training)
+    # min_max_transformed = pd.DataFrame(scaler.transform(min_max_data), columns=min_max_cols)
+    #
+    # z_score_transformed.reset_index(drop=True, inplace=True)
+    # min_max_transformed.reset_index(drop=True, inplace=True)
+    # targets.reset_index(drop=True, inplace=True)
 
-    z_score_data = data_copy[z_score_cols]
-    z_score_training = training_data_copy[z_score_cols]
-
-    min_max_data = data_copy[min_max_cols]
-    min_max_training = training_data_copy[min_max_cols]
-
-    targets = data_copy[target_cols]
-
-    scaler = StandardScaler()
-    scaler.fit(z_score_training)
-    z_score_transformed = pd.DataFrame(scaler.transform(z_score_data), columns=z_score_cols)
-
-    scaler = MinMaxScaler()
-    scaler.fit(min_max_training)
-    min_max_transformed = pd.DataFrame(scaler.transform(min_max_data), columns=min_max_cols)
-
-    z_score_transformed.reset_index(drop=True, inplace=True)
-    min_max_transformed.reset_index(drop=True, inplace=True)
-    targets.reset_index(drop=True, inplace=True)
-
-    return pd.concat([min_max_transformed, z_score_transformed, targets], axis='columns')
+    # return pd.concat([min_max_transformed, z_score_transformed, targets], axis='columns')

@@ -68,6 +68,15 @@
 \subsection*{Q6:}
     \paragraph*{}
     Z-score scaling scales the data of a feature by ensuring that they have zero mean and unit standard deviation, thereby causing the data to adhere to a normal distribution. Features scaled according to this technique have their outliers handled correctly, but no guarantee on the resulting range of the data is made, and the ranges of different features scaled according to Z-score may differ from each other. This technique is preferable in cases that have outliers and when the learning model assumes that the data adheres to a normal distribution . On-the-other-hand, the min-max technique involves scaling the data of a feature to a specific range (generally between 0 and 1). Contrary to the Z-score method, this technique guarantees a uniform range across features and maintains the original distribution of the data, but does not handle outliers well. Therefore, it would be preferable to use this technique only when the feature in question has no significant outliers and\_or the learning model to be used requires the feature data to fall within a certain range.
+\subsection*{Q8:}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.5]{q8_hists.png}
+        \caption{Histogram Plots of \code{sugar\_levels} and \code{blood\_A\_AB} Before and After Normalization}
+        \label{fig:q8_hist}
+    \end{figure}
+    \paragraph*{}
+    We chose to do Z-score Normalization on \code{sugar\_levels} since it obeys an approximate normal distribution, as can be seen in figure \ref{fig:q8_hist}. On the other hand, we chose to do min-max normalization on \code{blood\_A\_AB}, since it does not obey a normal distribution.
 \section*{Part 2}
 \subsection*{Q11:}
     \begin{figure}[H]

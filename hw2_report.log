@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.12)  30 DEC 2021 00:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.12)  30 DEC 2021 01:17
 entering extended mode
 **c:/Users/dcohe/Documents/Technion/winter_2021/ml/hw2/hw2_report.tex
 (c:/Users/dcohe/Documents/Technion/winter_2021/ml/hw2/hw2_report.tex
@@ -369,35 +369,40 @@ File: images/q3.png Graphic file (type png)
 Package pdftex.def Info: images/q3.png  used on input line 54.
 (pdftex.def)             Requested size: 266.99683pt x 243.91064pt.
  [2 <c:/Users/dcohe/Documents/Technion/winter_2021/ml/hw2/images/q2.png> <c:/Users/dcohe/Documents/Technion/winter_2021/ml/hw2/images/q3.png>]
-<./images/q11_pcr_01_pcr_02_j_plot.png, id=21, 233.37187pt x 218.31563pt>
+<./images/q8_hists.png, id=21, 620.3175pt x 607.26875pt>
+File: ./images/q8_hists.png Graphic file (type png)
+<use ./images/q8_hists.png>
+Package pdftex.def Info: ./images/q8_hists.png  used on input line 74.
+(pdftex.def)             Requested size: 310.15799pt x 303.63364pt.
+ [3 <./images/q8_hists.png>]
+<./images/q11_pcr_01_pcr_02_j_plot.png, id=28, 233.37187pt x 218.31563pt>
 File: ./images/q11_pcr_01_pcr_02_j_plot.png Graphic file (type png)
 <use ./images/q11_pcr_01_pcr_02_j_plot.png>
-Package pdftex.def Info: ./images/q11_pcr_01_pcr_02_j_plot.png  used on input line 75.
+Package pdftex.def Info: ./images/q11_pcr_01_pcr_02_j_plot.png  used on input line 84.
 (pdftex.def)             Requested size: 233.37129pt x 218.31508pt.
-<./images/q11_pcr_06_01_j_plot.png, id=22, 431.6125pt x 425.59pt>
+<./images/q11_pcr_06_01_j_plot.png, id=29, 431.6125pt x 425.59pt>
 File: ./images/q11_pcr_06_01_j_plot.png Graphic file (type png)
 <use ./images/q11_pcr_06_01_j_plot.png>
-Package pdftex.def Info: ./images/q11_pcr_06_01_j_plot.png  used on input line 83.
+Package pdftex.def Info: ./images/q11_pcr_06_01_j_plot.png  used on input line 92.
 (pdftex.def)             Requested size: 172.64194pt x 170.23297pt.
- [3 <./images/q11_pcr_01_pcr_02_j_plot.png>]
-<images/q12.png, id=29, 200.75pt x 202.25563pt>
+<images/q12.png, id=30, 200.75pt x 202.25563pt>
 File: images/q12.png Graphic file (type png)
 <use images/q12.png>
-Package pdftex.def Info: images/q12.png  used on input line 92.
+Package pdftex.def Info: images/q12.png  used on input line 101.
 (pdftex.def)             Requested size: 200.7495pt x 202.25513pt.
- [4 <./images/q11_pcr_06_01_j_plot.png> <c:/Users/dcohe/Documents/Technion/winter_2021/ml/hw2/images/q12.png>] (c:/Users\dcohe\Documents\Technion\winter_2021\ml\hw2\hw2_report.aux) ) 
+ [4 <./images/q11_pcr_01_pcr_02_j_plot.png> <./images/q11_pcr_06_01_j_plot.png>] [5 <c:/Users/dcohe/Documents/Technion/winter_2021/ml/hw2/images/q12.png>] (c:/Users\dcohe\Documents\Technion\winter_2021\ml\hw2\hw2_report.aux) ) 
 Here is how much of TeX's memory you used:
- 5857 strings out of 492452
- 82849 string characters out of 3120063
- 165048 words of memory out of 3000000
- 10121 multiletter control sequences out of 15000+200000
+ 5865 strings out of 492452
+ 83005 string characters out of 3120063
+ 164056 words of memory out of 3000000
+ 10128 multiletter control sequences out of 15000+200000
  11671 words of font info for 46 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,12n,37p,1164b,236s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on c:/Users\dcohe\Documents\Technion\winter_2021\ml\hw2\hw2_report.pdf (4 pages, 324813 bytes).
+Output written on c:/Users\dcohe\Documents\Technion\winter_2021\ml\hw2\hw2_report.pdf (5 pages, 349117 bytes).
 PDF statistics:
- 54 PDF objects out of 1000 (max. 8388607)
+ 59 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

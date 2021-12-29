@@ -151,6 +151,11 @@ INPUT C:\Users\dcohe\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts
 INPUT C:\Users\dcohe\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\dcohe\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Users\dcohe\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT images\q8_hists.png
+INPUT .\images\q8_hists.png
+INPUT .\images\q8_hists.png
+INPUT .\images\q8_hists.png
+INPUT .\images\q8_hists.png
 INPUT images\q11_pcr_01_pcr_02_j_plot.png
 INPUT .\images\q11_pcr_01_pcr_02_j_plot.png
 INPUT .\images\q11_pcr_01_pcr_02_j_plot.png

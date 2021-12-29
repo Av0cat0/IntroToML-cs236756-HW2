@@ -119,9 +119,21 @@ INPUT C:\Users\dcohe\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts
 INPUT C:\Users\dcohe\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\dcohe\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\dcohe\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx12.tfm
-INPUT c:\Users\dcohe\Documents\Technion\winter_2021\ml\hw2\images\q2.png
-INPUT c:\Users\dcohe\Documents\Technion\winter_2021\ml\hw2\images\q2.png
+INPUT images\q1_k1.png
+INPUT .\images\q1_k1.png
 OUTPUT c:\Users\dcohe\Documents\Technion\winter_2021\ml\hw2\hw2_report.pdf
+INPUT .\images\q1_k1.png
+INPUT .\images\q1_k1.png
+INPUT .\images\q1_k1.png
+INPUT images\q1_k9.png
+INPUT .\images\q1_k9.png
+INPUT .\images\q1_k9.png
+INPUT .\images\q1_k9.png
+INPUT .\images\q1_k9.png
+INPUT C:\Users\dcohe\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx10.tfm
+INPUT C:\Users\dcohe\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
+INPUT c:\Users\dcohe\Documents\Technion\winter_2021\ml\hw2\images\q2.png
+INPUT c:\Users\dcohe\Documents\Technion\winter_2021\ml\hw2\images\q2.png
 INPUT c:\Users\dcohe\Documents\Technion\winter_2021\ml\hw2\images\q2.png
 INPUT c:\Users\dcohe\Documents\Technion\winter_2021\ml\hw2\images\q2.png
 INPUT c:\Users\dcohe\Documents\Technion\winter_2021\ml\hw2\images\q2.png
@@ -131,8 +143,6 @@ INPUT c:\Users\dcohe\Documents\Technion\winter_2021\ml\hw2\images\q3.png
 INPUT c:\Users\dcohe\Documents\Technion\winter_2021\ml\hw2\images\q3.png
 INPUT c:\Users\dcohe\Documents\Technion\winter_2021\ml\hw2\images\q3.png
 INPUT c:\Users\dcohe\Documents\Technion\winter_2021\ml\hw2\images\q3.png
-INPUT C:\Users\dcohe\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
-INPUT C:\Users\dcohe\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx10.tfm
 INPUT C:\Users\dcohe\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Users\dcohe\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Users\dcohe\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm

@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1640800336 "c:/Users/dcohe/Documents/Technion/winter_2021/ml/hw2/hw2_report.tex" "c:/Users/dcohe/Documents/Technion/winter_2021/ml/hw2/hw2_report.pdf" "hw2_report" 1640800337
+["pdflatex"] 1640815645 "c:/Users/dcohe/Documents/Technion/winter_2021/ml/hw2/hw2_report.tex" "c:/Users/dcohe/Documents/Technion/winter_2021/ml/hw2/hw2_report.pdf" "hw2_report" 1640815647
   "C:/Users/dcohe/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt" 1573509850 4273480 09395ba4ff32442c1700c157b268cd9b ""
   "C:/Users/dcohe/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map" 1636984583 120965 3f65edfc8acf527314734c51b0bb7f21 ""
   "C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -76,18 +76,20 @@
   "C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/longtable.sty" 1570126938 12125 d0d4ebd542e3988278244a32c1fea9b5 ""
   "C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/tabularx.sty" 1570126938 7149 0761e0046ae54b8c3b512ab8e07fef1c ""
   "C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/tex/latex/xcolor/xcolor.sty" 1463131981 57049 34128738f682d033422ca125f82e5d62 ""
-  "c:/Users/dcohe/Documents/Technion/winter_2021/ml/hw2/hw2_report.aux" 1640800336 923 255930ac9a81d116f612bc5a1b0a038d ""
-  "c:/Users/dcohe/Documents/Technion/winter_2021/ml/hw2/hw2_report.tex" 1640800335 4755 827c8d7e9f8ad1f93781ab9820d9ef4e ""
-  "hw2_report.aux" 1640800336 923 255930ac9a81d116f612bc5a1b0a038d "pdflatex"
-  "hw2_report.tex" 1640800335 4755 827c8d7e9f8ad1f93781ab9820d9ef4e ""
+  "c:/Users/dcohe/Documents/Technion/winter_2021/ml/hw2/hw2_report.aux" 1640815647 1265 b2964711b3025842981034d91220502d ""
+  "c:/Users/dcohe/Documents/Technion/winter_2021/ml/hw2/hw2_report.tex" 1640815644 6031 48514dc1c4345a0fd29a60b68acd97b1 ""
+  "hw2_report.aux" 1640815647 1265 b2964711b3025842981034d91220502d "pdflatex"
+  "hw2_report.tex" 1640815644 6031 48514dc1c4345a0fd29a60b68acd97b1 ""
   "images/q11_pcr_01_pcr_02_j_plot.png" 1638888920 74652 bf8261de1dedc16a97839bedd8d114c8 ""
   "images/q11_pcr_06_01_j_plot.png" 1638914959 99078 524298f82fed77788ad4220b84514e03 ""
   "images/q12.png" 1640606507 41725 81368107d37de2e1e5c0622ed9662294 ""
+  "images/q1_k1.png" 1640813358 30625 c3851c51f4773b89984240858274e4c0 ""
+  "images/q1_k9.png" 1640813372 24718 d7bf7a5445f159a003f322464e375652 ""
   "images/q2.png" 1640036153 20691 e68860ad183ec6c8f59039ea34a80b4e ""
   "images/q3.png" 1640119833 43071 c57fc90a7be2e93118f7a3ab03303a06 ""
   (generated)
   "c:/Users/dcohe/Documents/Technion/winter_2021/ml/hw2/hw2_report.pdf"
-  "hw2_report.log"
+  "c:/Users/dcohe/Documents/Technion/winter_2021/ml/hw2/hw2_report.log"
   "hw2_report.pdf"
   "hw2_report.aux"
-  "c:/Users/dcohe/Documents/Technion/winter_2021/ml/hw2/hw2_report.log"
+  "hw2_report.log"

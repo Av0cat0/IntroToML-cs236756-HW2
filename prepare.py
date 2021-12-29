@@ -277,7 +277,7 @@ def prepare_data(data, training_data):
     # Apply normalization to the features
 
     target_cols = ['covid', 'risk', 'spread']
-    z_score_cols = ['PCR_01', 'PCR_02', 'PCR_03', 'PCR_06', 'PCR_07', 'PCR_10', 'num_of_siblings', 'sugar_levels']
+    z_score_cols = ['PCR_01', 'PCR_02', 'PCR_03', 'PCR_06', 'PCR_07', 'sugar_levels']
     min_max_cols = [x for x in data_copy.columns if x not in target_cols and x not in z_score_cols]
 
     z_score_data = data_copy[z_score_cols]

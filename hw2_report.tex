@@ -184,8 +184,8 @@
         \label{fig:q19}
     \end{figure}
     \paragraph*{}
-    First of all, from figure \ref{fig:q19} we can conclude that the optimal learning rate for the SVM SGD is$0.001$ as can be seen from the fact that a peak validation accuracy of $80\%$ is achieved for that learning rate.
-    With respect to the learning perspective, we can observe in the graph overfitting in the range of $[10^{-9}, 10^{-7.5}]$, since in this range, the training accuracy is above the validation accuracy. On the other hand, we can notice that there is underfitting in the range of $[10^{-7.5}, 10^{-5}]$ as in this range the training accuracy is below the validation accuracy.
+    First of all, from figure \ref{fig:q19} we can conclude that the optimal learning rate for the SVM SGD is $0.001$ as can be seen from the fact that a peak validation accuracy of $80\%$ is achieved for that learning rate.
+    With respect to the learning perspective, we can observe in the graph slight overfitting in the range of $[10^{-5}, 10^{-4}]$, since in this range, the training accuracy is above the validation accuracy. On the other hand, we can notice that there is slight underfitting in the range of $[10^{-7.5}, 10^{-5}]$ as in this range the training accuracy is below the validation accuracy. 
     \paragraph*{}
     With regards to the optimization perspective, we can see that decreasing the learning rate (step size) only increases the accuracy up to a certain point. Decreasing it past the optimal rate we found leads to a decrease in accuracy, as clearly seen in figure \ref{fig:q19}. This is probably due to the fact that the learning rate is too slow, and therefore on every iteration the SGD is taking a step that is too small towards the minima, and therefore the SGD is not able to reach the minima in the number of iterations provided (2000).
 \subsection*{Q20:}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.12)  30 DEC 2021 15:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.12)  30 DEC 2021 19:02
 entering extended mode
 **c:/Users/dcohe/Documents/Technion/winter_2021/ml/hw2/hw2_report.tex
 (c:/Users/dcohe/Documents/Technion/winter_2021/ml/hw2/hw2_report.tex
@@ -372,67 +372,90 @@ Package pdftex.def Info: images/q3.png  used on input line 54.
 <./images/q8_hists.png, id=21, 620.3175pt x 607.26875pt>
 File: ./images/q8_hists.png Graphic file (type png)
 <use ./images/q8_hists.png>
-Package pdftex.def Info: ./images/q8_hists.png  used on input line 77.
+Package pdftex.def Info: ./images/q8_hists.png  used on input line 78.
 (pdftex.def)             Requested size: 310.15799pt x 303.63364pt.
  [3]
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 82.
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 83.
 <./images/q9.png, id=27, 737.75626pt x 456.70625pt>
 File: ./images/q9.png Graphic file (type png)
 <use ./images/q9.png>
-Package pdftex.def Info: ./images/q9.png  used on input line 88.
+Package pdftex.def Info: ./images/q9.png  used on input line 89.
 (pdftex.def)             Requested size: 368.87723pt x 228.35255pt.
  [4 <./images/q8_hists.png>]
-<./images/q11_pcr_01_pcr_02_j_plot.png, id=32, 233.37187pt x 218.31563pt>
+<./images/q10.png, id=32, 578.16pt x 325.215pt>
+File: ./images/q10.png Graphic file (type png)
+<use ./images/q10.png>
+Package pdftex.def Info: ./images/q10.png  used on input line 98.
+(pdftex.def)             Requested size: 404.70924pt x 227.64894pt.
+<./images/q11_pcr_01_pcr_02_j_plot.png, id=33, 233.37187pt x 218.31563pt>
 File: ./images/q11_pcr_01_pcr_02_j_plot.png Graphic file (type png)
 <use ./images/q11_pcr_01_pcr_02_j_plot.png>
-Package pdftex.def Info: ./images/q11_pcr_01_pcr_02_j_plot.png  used on input line 98.
+Package pdftex.def Info: ./images/q11_pcr_01_pcr_02_j_plot.png  used on input line 108.
 (pdftex.def)             Requested size: 233.37129pt x 218.31508pt.
-<./images/q11_pcr_06_01_j_plot.png, id=33, 431.6125pt x 425.59pt>
+ [5 <./images/q9.png> <./images/q10.png>]
+<./images/q11_pcr_06_01_j_plot.png, id=38, 431.6125pt x 425.59pt>
 File: ./images/q11_pcr_06_01_j_plot.png Graphic file (type png)
 <use ./images/q11_pcr_06_01_j_plot.png>
-Package pdftex.def Info: ./images/q11_pcr_06_01_j_plot.png  used on input line 106.
+Package pdftex.def Info: ./images/q11_pcr_06_01_j_plot.png  used on input line 116.
 (pdftex.def)             Requested size: 172.64194pt x 170.23297pt.
- [5 <./images/q9.png> <./images/q11_pcr_01_pcr_02_j_plot.png>]
 <images/q12.png, id=39, 200.75pt x 202.25563pt>
 File: images/q12.png Graphic file (type png)
 <use images/q12.png>
-Package pdftex.def Info: images/q12.png  used on input line 115.
+Package pdftex.def Info: images/q12.png  used on input line 125.
 (pdftex.def)             Requested size: 200.7495pt x 202.25513pt.
-<./images/q13.png, id=40, 1694.7315pt x 1105.731pt>
+ [6 <./images/q11_pcr_01_pcr_02_j_plot.png> <./images/q11_pcr_06_01_j_plot.png>]
+<./images/q13.png, id=45, 1694.7315pt x 1105.731pt>
 File: ./images/q13.png Graphic file (type png)
 <use ./images/q13.png>
-Package pdftex.def Info: ./images/q13.png  used on input line 122.
+Package pdftex.def Info: ./images/q13.png  used on input line 132.
 (pdftex.def)             Requested size: 542.32516pt x 353.84114pt.
 
-Overfull \hbox (41.84117pt too wide) in paragraph at lines 122--123
+Overfull \hbox (41.84117pt too wide) in paragraph at lines 132--133
  [][] 
  []
 
-[6 <./images/q11_pcr_06_01_j_plot.png> <c:/Users/dcohe/Documents/Technion/winter_2021/ml/hw2/images/q12.png>]
-<./images/q15.png, id=46, 1146.2825pt x 607.26875pt>
+[7 <c:/Users/dcohe/Documents/Technion/winter_2021/ml/hw2/images/q12.png> <./images/q13.png>]
+<./images/q15.png, id=52, 1146.2825pt x 607.26875pt>
 File: ./images/q15.png Graphic file (type png)
 <use ./images/q15.png>
-Package pdftex.def Info: ./images/q15.png  used on input line 136.
+Package pdftex.def Info: ./images/q15.png  used on input line 146.
 (pdftex.def)             Requested size: 550.20935pt x 291.48569pt.
 
-Overfull \hbox (49.72536pt too wide) in paragraph at lines 136--137
+Overfull \hbox (49.72536pt too wide) in paragraph at lines 146--147
  [][] 
  []
 
-[7 <./images/q13.png>] [8 <./images/q15.png>] (c:/Users\dcohe\Documents\Technion\winter_2021\ml\hw2\hw2_report.aux) ) 
+<./images/q16.png, id=53, 632.3625pt x 406.51875pt>
+File: ./images/q16.png Graphic file (type png)
+<use ./images/q16.png>
+Package pdftex.def Info: ./images/q16.png  used on input line 160.
+(pdftex.def)             Requested size: 303.53055pt x 195.12677pt.
+[8 <./images/q15.png>]
+<./images/q17.png, id=58, 812.03375pt x 456.70625pt>
+File: ./images/q17.png Graphic file (type png)
+<use ./images/q17.png>
+Package pdftex.def Info: ./images/q17.png  used on input line 169.
+(pdftex.def)             Requested size: 389.77177pt x 219.2165pt.
+ [9 <./images/q16.png> <./images/q17.png>]
+<./images/q19.png, id=64, 766.865pt x 456.70625pt>
+File: ./images/q19.png Graphic file (type png)
+<use ./images/q19.png>
+Package pdftex.def Info: ./images/q19.png  used on input line 182.
+(pdftex.def)             Requested size: 368.09102pt x 219.2165pt.
+ [10 <./images/q19.png>] [11] (c:/Users\dcohe\Documents\Technion\winter_2021\ml\hw2\hw2_report.aux) ) 
 Here is how much of TeX's memory you used:
- 5891 strings out of 492452
- 83373 string characters out of 3120063
- 165090 words of memory out of 3000000
- 10151 multiletter control sequences out of 15000+200000
+ 5924 strings out of 492452
+ 83849 string characters out of 3120063
+ 165135 words of memory out of 3000000
+ 10180 multiletter control sequences out of 15000+200000
  11671 words of font info for 46 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,12n,37p,1164b,236s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on c:/Users\dcohe\Documents\Technion\winter_2021\ml\hw2\hw2_report.pdf (8 pages, 970998 bytes).
+<C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/dcohe/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on c:/Users\dcohe\Documents\Technion\winter_2021\ml\hw2\hw2_report.pdf (11 pages, 1095790 bytes).
 PDF statistics:
- 76 PDF objects out of 1000 (max. 8388607)
+ 100 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -53,6 +53,7 @@
         \centering
         \includegraphics{images/q3.png}
         \caption{3D Scatter plot of \code{PCR\_03}, \code{PCR\_07}, and \code{PCR\_10} according to \code{spread}}
+        \label{fig:q3}
     \end{figure}
 \subsection*{Q4:}
     \paragraph*{}
@@ -91,6 +92,15 @@
     \end{figure}
     \paragraph*{}
     The optimal $k$ value is 5, as can be seen by virtue of the fact that in figure \ref{fig:q9}, the highest point (peak) of the validation curve is at 5. The mean validation and training accuracies for $k=5$ are $87.2916\%$ and $91.083\%$, respectively.
+\subsection*{Q10:}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.7]{q10.png}
+        \caption{Confusion Matrix for \code{spread} Class}
+        \label{fig:q10}
+    \end{figure}
+    \paragraph*{}
+    According to the confusion matrix in figure \ref{fig:q10}, we can see that our model tends more to false negatives.
 \section*{Part 2}
 \subsection*{Q11:}
     \begin{figure}[H]
@@ -144,9 +154,47 @@
     \paragraph*{}
     The combination of \code{max\_depth}=15 and \code{min\_samples\_leaf}=1 causes overfitting, as this leads to a high training accuracy of $99\%$ versus a relatively low validation accuracy of $84\%$.
 \section*{Part 3}
+\subsection*{Q16:}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.48]{q16.png}
+        \caption{Plot of Residuals of analytical and numerical gradients}
+        \label{fig:q16}
+    \end{figure}
+    \paragraph*{}
+    As we can see in figure \ref{fig:q16}, the difference between the analytic and numerical gradients increases in a  monotonic fashion as the value of $\delta$ increases. This is logical, as $\delta$ is the differential size used in the definition of the numerical gradient, and therefore a smaller $\delta$  equates to a more precise estimation of the analytic gradient by the numerical gradient.
+\subsection*{Q17:}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.48]{q17.png}
+        \caption{Learning Curve for Soft SVM Training on \code{virus} Class}
+        \label{fig:q17}
+    \end{figure}
+    \paragraph*{}
+    The maximal training accuracy achieved by the model is $68.9\%$.
+\subsection*{Q18:}
+    \paragraph*{}
+    As we saw in figure \ref{fig:q3}, the \code{spread} class is not linearly separable (only separable as an ellipsoid), and therefore our soft SVM model as it is without transformations would be a poor model because it relies on data that is close to linearly separable. Alternatively, the kNN model was suitable for the problem because it relies on clustering of similarly labeled data, which is the case in figure \ref{fig:q3}.
+
+\subsection*{Q19:}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.48]{q19.png}
+        \caption{Validation Curve for Learning Rate on \code{spread Class}}
+        \label{fig:q19}
+    \end{figure}
+    \paragraph*{}
+    First of all, from figure \ref{fig:q19} we can conclude that the optimal learning rate for the SVM SGD is$0.001$ as can be seen from the fact that a peak validation accuracy of $80\%$ is achieved for that learning rate.
+    With respect to the learning perspective, we can observe in the graph overfitting in the range of $[10^{-9}, 10^{-7.5}]$, since in this range, the training accuracy is above the validation accuracy. On the other hand, we can notice that there is underfitting in the range of $[10^{-7.5}, 10^{-5}]$ as in this range the training accuracy is below the validation accuracy.
+    \paragraph*{}
+    With regards to the optimization perspective, we can see that decreasing the learning rate (step size) only increases the accuracy up to a certain point. Decreasing it past the optimal rate we found leads to a decrease in accuracy, as clearly seen in figure \ref{fig:q19}. This is probably due to the fact that the learning rate is too slow, and therefore on every iteration the SGD is taking a step that is too small towards the minima, and therefore the SGD is not able to reach the minima in the number of iterations provided (2000).
 \subsection*{Q20:}
     \paragraph*{}
     In Q19, we used a 2 dimensional polynomial transform on the features within the primal objective of the SVM model. This approach is slower than the two dimensional kernel objective because it involves computing inner products between data points and the $w$ vector in high dimensions, whereas in the kernel case, the dual objective is used, which only involves computing the kernel function for 2 dimensional polynomials which is of much lower dimension (and finding and storing the $\alpha$s, which is not too computationally burdensome on the assumption that the support vectors are sparse).
+\subsection*{Q21:}
+    \paragraph*{}
+    For the SVM model after training, we are required to keep only a single $w$ vector of dimension 10, and therefore the space requirement for SVM after training is $O(1)$.
+    On the other hand, for kNN, we must maintain all of the data points and all of their labels for prediction, therefore requiring us to keep $m$ vectors of dimension equal to three and additionally a vector of size $m$ of their associated labels, where $m$ is the size of the input. Therefore in total, the kNN model requires $O(m)$ space after training.
 
 
 

@@ -114,7 +114,35 @@
         \centering
         \includegraphics{images/q12.png}
         \caption{The 10 most correlated features to \code{risk}}
+        \label{fig:q12}
     \end{figure}
+\subsection*{Q13:}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.32]{q13.png}
+        \caption{ID3 Decision Tree for Predicting \code{risk} CLass}
+        \label{fig:q13}
+    \end{figure}
+    \paragraph*{}
+    The training accuracy of the model is $74.333\%$.
+\subsection*{Q14:}
+    \paragraph*{}
+    \code{PCR\_01} and \code{PCR\_02}, which we concluded would be important features, are the features with the fifth and sixth highest correlations with \code{risk}, as can be seen in figure \ref{fig:q12}, and their actual correlation values ($0.023$ and $0.021$ respectively) are very small. It is therefore easy to see that that these features are very much not discernable as important features by merely analyzing their correlation to \code{risk}. Even \code{PCR\_06}, which has the second highest correlation to \code{risk}, has a low correlation value of only $0.175$, and is therefore also not easily discernable as an important feature by way of correlation alone.
+    \paragraph*{}
+    All three of these features which we deemed important were used by ID3 in the decision tree. And in-fact, they were used in 11 out of 15 of the internal nodes of the tree, further proving their importance.
+\subsection*{Q15:}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.48]{q15.png}
+        \caption{Heat Maps of Training and Validation Accuracies of ID3 on \code{risk} Class for Different Values of \code{max\_depth} and \code{min\_samples\_leaf} Hyper-Parameters}
+        \label{fig:q15}
+    \end{figure}
+    \paragraph*{}
+    The optimal hyperparameter combination is a \code{max\_depth}=10 and \code{min\_samples\_leaf}=15, since they produce the highest validation accuracy of $88\%$ with the minimal required depth and highest minimum sample leaf requirement, as can be seen in the mean validation accuracy heat map in figure \ref{fig:q15}.
+    \paragraph*{}
+    The combination of \code{max\_depth}=2 and \code{min\_samples\_leaf}=1 causes underfitting, as this leads to a low training accuracy of $63\%$.
+    \paragraph*{}
+    The combination of \code{max\_depth}=15 and \code{min\_samples\_leaf}=1 causes overfitting, as this leads to a high training accuracy of $99\%$ versus a relatively low validation accuracy of $84\%$.
 \section*{Part 3}
 \subsection*{Q20:}
     \paragraph*{}
